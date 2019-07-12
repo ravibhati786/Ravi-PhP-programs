@@ -1,7 +1,8 @@
 <?php
 
+	$ddlValue = array();
 	$ddlValue = $_GET['ddl'];
 	
-	echo $ddlValue;
+	print_r($ddlValue);
 
 ?>
